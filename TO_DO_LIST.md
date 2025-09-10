@@ -1,0 +1,19 @@
+- [ ] Create the `estate` module structure (folders, `__init__.py` files).
+- [ ] Create the `__manifest__.py` file with basic information.
+- [ ] Create the `security/ir.model.access.csv` file with initial permissions.
+- [ ] Install the empty module to verify the setup.
+- [ ] Create the `estate.property.type` model in `models/property_type.py`.
+- [ ] Create the `estate.property.tag` model in `models/property_tag.py`.
+- [ ] Create the main `estate.property` model in `models/property.py`.
+- [ ] Create the `estate.property.offer` model in `models/offer.py`.
+- [ ] Add the `One2many` `offer_ids` field to the `estate.property` model.
+- [ ] Update `models/__init__.py` to import all new model files.
+- [ ] Create the Actions and Menu Items for all models in the views XML file.
+- [ ] Create the Tree and Form views for the `Property Type` model.
+- [ ] Create the Tree and Form views for the `Property Tag` model.
+- [ ] Create the Tree and Form views for the `Property Offer` model.
+- [ ] Create the main Tree View for the `Property` model.
+- [ ] Create the main Form View for the `Property` model, including the notebook for tabs.
+- [ ] Create the Search View for the `Property` model.
+- [ ] Add buttons to the `Property` form header.
+- [ ] Implement the Python methods for the header buttons in `models/property.py`.
